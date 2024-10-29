@@ -1,0 +1,25 @@
+ipykernel
+pandas
+numpy
+matplotlib
+plotly
+seaborn
+scipy
+scikit-learn
+imblearn
+xgboost
+catboost
+pymongo
+from_root
+evidently==0.2.8
+dill
+PyYAML
+neuro_mf
+boto3  # for aws connection
+mypy-boto3-s3
+botocore
+fastapi  # for fontend ui dev
+uvicorn
+jinja2
+python-multipart
+-e . # for to consider local folder as package we are using thie -e and it will look for setup python file as well
