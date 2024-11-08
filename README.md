@@ -10,10 +10,9 @@ MongoDB: https://account.mongodb.com/account/login
 Data link: https://www.kaggle.com/datasets/moro23/easyvisa-dataset
 
 
-3)############### create project folders
-template.py
-
 # Git commands
+git clone 
+
 git add .
 
 git commit -m "Updated"
