@@ -17,9 +17,6 @@ class TargetValueMapping:
     def reverse_mapping(self):
         mapping_response = self._asdict()
         return dict(zip(mapping_response.values(),mapping_response.keys()))
-    
-
-
 
 class USvisaModel:
     def __init__(self, preprocessing_object: Pipeline, trained_model_object: object):
@@ -53,5 +50,4 @@ class USvisaModel:
         return f"{type(self.trained_model_object).__name__}()"
 
     def __str__(self):
-        return f"{type(self.trained_model_object).__name__}()"
-    
+        return f"{type(self.trained_model_object).__name__}()"    
